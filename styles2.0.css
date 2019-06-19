@@ -1,0 +1,52 @@
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: "https://fonts.googleapis.com/css?family=Monoton";
+  font-size: 70px;
+  margin: 0.2em;
+}
+
+/* header background */
+#headerBackground {
+  background-color: "teal";
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+  margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+    width: 20px;
+
+}
+
+td {
+    width: 20px;
+    height: 20px;
+    background-color: "white";
+}
+
+input[type=number] {
+    width: 6em;
+}
